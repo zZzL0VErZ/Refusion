@@ -1,0 +1,67 @@
+
+##IPTABLES THAT SAYS TIMED OUT ON CHECKHOST, MADE BY VSYNC.
+
+iptables -A INPUT -s 203.33.252.253 -j DROP 
+iptables -A INPUT -s 191.252.103.77 -j DROP 
+iptables -A INPUT -s 91.194.11.21 -j DROP 
+iptables -A INPUT -s 95.217.234.24 -j DROP 
+iptables -A INPUT -s 46.4.143.48 -j DROP 
+iptables -A INPUT -s 185.37.147.117 -j DROP 
+iptables -A INPUT -s 51.89.1.61 -j DROP 
+iptables -A INPUT -s 194.156.98.193 -j DROP 
+iptables -A INPUT -s 185.105.238.209 -j DROP 
+iptables -A INPUT -s 185.25.204.60 -j DROP 
+iptables -A INPUT -s 94.154.1.7 -j DROP 
+iptables -A INPUT -s 185.120.77.165 -j DROP 
+iptables -A INPUT -s 88.119.179.10 -j DROP 
+iptables -A INPUT -s 178.17.171.235 -j DROP 
+iptables -A INPUT -s 185.209.161.169 -j DROP 
+iptables -A INPUT -s 185.213.209.92 -j DROP 
+iptables -A INPUT -s 185.83.213.25 -j DROP 
+iptables -A INPUT -s 185.159.82.88 -j DROP 
+iptables -A INPUT -s 139.99.75.183 -j DROP 
+iptables -A INPUT -s 179.43.148.195 -j DROP 
+iptables -A INPUT -s 185.169.54.231 -j DROP 
+iptables -A INPUT -s 185.86.77.126 -j DROP 
+iptables -A INPUT -s 5.253.30.82 -j DROP 
+iptables -A INPUT -s 138.124.183.163 -j DROP 
+
+firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address='203.33.252.253' reject"
+firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address='191.252.103.77' reject"
+firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address='91.194.11.21' reject"
+firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address='95.217.234.24' reject"
+firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address='46.4.143.48' reject"
+firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address='185.37.147.117' reject"
+firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address='51.89.1.61' reject"
+firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address='194.156.98.193' reject"
+firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address='185.105.238.209' reject"
+firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address='185.25.204.60' reject"
+firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address='94.154.1.7' reject"
+firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address='185.120.77.165' reject"
+firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address='88.119.179.10' reject"
+firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address='178.17.171.235' reject"
+firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address='185.209.161.169' reject"
+firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address='185.213.209.92' reject"
+firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address='185.83.213.25' reject"
+firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address='185.159.82.88' reject"
+firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address='139.99.75.183' reject"
+firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address='179.43.148.195' reject"
+firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address='185.169.54.231' reject"
+firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address='185.86.77.126' reject"
+firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address='5.253.30.82' reject"
+firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address='138.124.183.163' reject"
+
+
+
+sudo systemctl restart firewalld
+
+echo fuck you you retard, ~ vsync
+
+echo 
+
+
+
+
+
+
+
